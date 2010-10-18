@@ -58,6 +58,8 @@ $(document).ready(function(){
 		// Reset our current class
 		$('#nav-main a').removeClass('current');
 		$(this).addClass('current');
+
+		return false;
 	});
 	
 	/*
