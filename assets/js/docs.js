@@ -46,6 +46,8 @@ function load_page(url) {
 
 $(document).ready(function(){
 
+	load_page(document.location.hash.substr(1))
+
 	/* 
 		Hook up category loading 
 	*/
@@ -78,7 +80,9 @@ $(document).ready(function(){
 	$('#menu_bin a, #content_bin a:not([target="_blank"])').live('click', function(){
 		
 		var url = $(this).attr('href');
-				
+
+		document.location.hash = url
+
 		return load_page(url);
 	});
 
