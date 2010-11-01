@@ -356,3 +356,22 @@ section #menu_bin {
 	margin-left: 0;	
 	margin-bottom: 0;
 }
+
+
+/*---------------------------------------------------------------
+// TOC MENU
+//--------------------------------------------------------------*/
+
+blockquote, code {
+	background-color:#F9F9F9;
+	border:1px solid #B3B4BD;
+	color:#143270;
+	display:block;
+	font-family:"courier new";
+	font-size:11px;
+	line-height: 1.2em;
+	margin:0;
+	margin-bottom: 1em;
+	padding:6px;
+	width:99%;
+}
