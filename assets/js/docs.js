@@ -46,7 +46,7 @@ function load_page(url) {
 
 $(document).ready(function(){
 
-	load_page(document.location.hash.substr(1))
+	document.location.hash.substr(1) && load_page(document.location.hash.substr(1))
 
 	/* 
 		Hook up category loading 
